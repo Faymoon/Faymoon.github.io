@@ -1,4 +1,101 @@
 body
 {
-    font-family: Arial, Verdana, sans-serif;
+	font-family: Arial, Verdana, sans-serif;
+	line-height: 1.5;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+h1
+{
+	font-size: 35px;
+}
+
+h2
+{
+	font-size: 30px;
+}
+
+header
+{
+	background-color: lightgreen;
+	display: flex;
+	justify-content: space-around;
+}
+
+header a
+{
+	background-color: greenyellow;
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	text-anchor: middle;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+section
+{
+	margin: 50px;
+	background-color: hotpink;
+	width: 33%;
+}
+
+section form
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+section form *
+{
+	margin: 25px;
+	background-color: indianred;
+}
+
+section form div
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+section form div *
+{
+	margin: 25px;
+	background-color: khaki;
+}
+
+section form div p
+{
+	margin: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+section form div p *
+{
+	margin: 10px;
+	background-color: indigo;
+}
+
+input:not(.submit)
+{
+	width: 50px;
 }
